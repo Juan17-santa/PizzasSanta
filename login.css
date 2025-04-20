@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+body i {
+    color: white;
+    margin-right: 5px;
+}
+
+.header {
+    background-color: rgb(211, 47, 47, 0.8);
+    display: flex;
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(20px);
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    box-sizing: border-box;
+}
+
+.header img {
+    width: 60px;
+    height: 60px;
+}
+
+.menu {
+    padding: 10px;
+}
+
+.menu ul {
+    font-weight: bold;
+    display: flex;
+    padding-right: 200px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu li {
+    list-style: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.menu li:hover {
+    background-color: #da4545;
+    border-radius: 30px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.header-sobra {
+    display: flex;
+    gap: 20px;
+}
+
+.header input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+}
+
+.header button {
+    background-color: #be2b2b;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: x-large;
+    border: none;
+}
+
+.header button:hover {
+    background-color: rgba(241, 77, 77, 0.8);
+}
+
+.header button a {
+    text-decoration: none;
+    color: white;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding-top: 150px;
+    padding-bottom: 80px;
+    background-color: #5d4037;
+    flex-wrap: wrap;
+}
+
+.iniciar-sesion {
+    background-color: beige;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 60px rgb(251, 192, 45,0.3);
+    width: 320px;
+    border: 3px solid #fbc02d;
+    transition: transform 0.3s ease-in-out;
+}
+
+.iniciar-sesion:hover {
+    transform: scale(1.02);
+}
+
+.registrarse {
+    background-color: beige;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 60px rgb(251, 192, 45,0.3);
+    width: 320px;
+    border: 3px solid #fbc02d;
+    transition: transform 0.3s ease-in-out;
+}
+
+.registrarse:hover {
+    transform: scale(1.02);
+}
+
+.login-container h2 {
+    color: #d32f2f;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form input {
+    padding: 12px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+form input:focus {
+    outline: none;
+    border-color: #fbc02d;
+}
+
+form button {
+    background-color: #be2b2b;
+    color: white;
+    padding: 12px;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #e74646;
+}
+
+.pie {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #4b332c;
+    color: white;
+}
+
+.pie div {
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-left: 3px solid #fbc02d;
+    border-right: 3px solid #fbc02d;
+}

@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+body i {
+    color: white;
+    margin-right: 5px;
+}
+
+.header {
+    background-color: rgb(211, 47, 47, 0.8);
+    display: flex;
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(20px);
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    box-sizing: border-box;
+}
+
+.header img {
+    width: 60px;
+    height: 60px;
+}
+
+.menu {
+    padding: 10px;
+}
+
+.menu ul {
+    font-weight: bold;
+    display: flex;
+    padding-right: 200px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu li {
+    list-style: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.menu li:hover {
+    background-color: #da4545;
+    border-radius: 30px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.header-sobra {
+    display: flex;
+    gap: 20px;
+}
+
+.header input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+}
+
+.header button {
+    background-color: #be2b2b;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: x-large;
+    border: none;
+}
+
+.header button:hover {
+    background-color: rgba(241, 77, 77, 0.8);
+}
+
+.header button a {
+    text-decoration: none;
+    color: white;
+}
+
+.titulomenu { 
+    font-size: 20px;
+    padding: 15px; 
+    padding-top: 150px; 
+    background-color: #5d4037;
+    color: white;
+}
+
+.contenido2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    row-gap: 65px;
+    padding: 40px;
+    background-color: #5d4037;
+    padding-bottom: 70px;
+}
+
+.carta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #fbc02d;
+    background-color: brown;
+    transition: background-color 0.3s ease;
+}
+
+.carta:hover {
+    background-color: rgb(201, 70, 70);
+}
+
+.carta img {
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+}
+
+.carta h1 {
+    color: #fbc02d;
+}
+
+.carta p {
+    color: white;
+    font-size: 20px;
+}
+
+.añadir {
+    width: 100%;
+    padding: 10px;
+    background-color: #fbc02d;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.añadir a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.añadir:hover {
+    background-color: #be2b2b;
+    transform: translateY(-5px);
+}
+
+.añadir:hover a {
+    color: white;
+}
+
+.titulomenu2 {
+    font-size: 20px;
+    padding: 15px;
+    background-color: #5d4037;
+    color: white;
+}
+
+.pie {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #4b332c;
+    color: white;
+}
+
+.pie div {
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-left: 3px solid #fbc02d;
+    border-right: 3px solid #fbc02d;
+}

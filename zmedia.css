@@ -1,0 +1,263 @@
+@media (max-width: 1024px) {
+    .header {
+        padding: 10px;
+        align-items: center;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        padding: 0;
+        gap: 10px;
+        padding-right: 0;
+    }
+
+    .contenido {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 300px;
+        padding-bottom: 60px;
+        gap: 20px;
+    }
+
+    .contenido img {
+        width: 180px;
+        height: 180px;
+        margin: 0;
+    }
+
+    .info {
+        font-size: 18px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .slider {
+        height: 80vh;
+        padding-top: 200px;
+    }
+
+    .slider img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .contenido2 {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .formulario form {
+        width: 90%;
+    }
+
+    .titulomenu,
+    .formulario {
+        padding-top: 250px;
+    }
+
+    .pie {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .pie div {border: none;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .login-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        padding-top: 150px;
+        padding-bottom: 60px;
+    }
+
+    .iniciar-sesion {
+        width: 60%;
+    }
+
+    .registrarse {
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .header img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .menu li {
+        font-size: 16px;
+    }
+
+    .contenido img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .info {
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    .titulomenu{
+        padding-top: 250px;
+    }
+
+    .contenido2 {
+        
+        grid-template-columns: 1fr;
+    }
+
+    .formulario form{
+        width: 90%;
+    }
+
+    .acerca div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .acerca img {
+        width: 80%;
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .iniciar-sesion {
+        width: 80%;
+    }
+
+    .registrarse {
+        width: 80%;
+    }
+
+    .iniciar-sesion h2 {
+        font-size: 26px;
+    }
+
+    .registrarse h2 {
+        font-size: 26px;
+    }
+
+    .iniciar-sesion input {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .registrarse input {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .iniciar-sesion button {
+        font-size: 15px;
+        padding: 12px;
+    }
+
+    .registrarse button {
+        font-size: 15px;
+        padding: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .menu li {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .contenido img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .slider {
+        height: 70vh;
+    }
+
+    .slider img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .carta img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .info h1 {
+        font-size: 30px;
+    }
+
+    .info p {
+        font-size: 16px;
+    }
+
+    .boton {
+        font-size: 16px;
+    }
+
+    .formulario h1 {
+        font-size: 35px;
+    }
+
+    .formulario p {
+        font-size: 16px;
+    }
+
+    .pedir {
+        font-size: 14px;
+    }
+
+    .login-container {
+        gap: 30px;
+        padding-top: 120px;
+    }
+
+    .iniciar-sesion {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .registrarse {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .iniciar-sesion h2 {
+        font-size: 22px;
+    }
+
+    .registrarse h2 {
+        font-size: 22px;
+    }
+
+    .iniciar-sesion input {
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    .registrarse input {
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    .iniciar-sesion button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .registrarse button {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
